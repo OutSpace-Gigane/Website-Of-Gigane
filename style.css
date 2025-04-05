@@ -1,0 +1,143 @@
+body{
+    background: radial-gradient(circle, rgba(3,0,61,1) 0%, rgba(126,0,0,1) 100%);
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url(fonts/Lexend-Regular.ttf);
+}
+
+.INTRO {
+    font-family: Lexend;
+    animation-name: fade;
+    text-align: center;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    background: brown;
+    
+}
+
+.introduction_of_Gigane{
+    color: mediumvioletred;
+    font-family: Lexend;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.INFORMATION {
+    font-family: Lexend;
+    color: darkmagenta;
+    animation-name: slide;
+    animation-duration: 1.05s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.dropdown .button1{
+    font-family: Lexend;
+    background-color: darkgoldenrod;
+    color: brown;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    animation-name: fade1;
+    animation-duration: 1s;
+}
+
+.dropdown a {
+    display: block;
+    color: lightpink;
+    font-family: Lexend;
+    padding: 10px 15px;
+    animation-name: fade1;
+    animation-duration: 0.5s;
+}
+
+.dropdown .contents{
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px darkblue;
+    animation-name: fade1;
+    animation-duration: 0.5s;
+}
+
+.dropdown:hover .contents{
+    display: block;
+}
+
+@keyframes fade1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+.N0tBTESN {
+    font-family: Lexend;
+    color: darkcyan;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.UEoEG{
+    font-family: Lexend;
+    color: lightcoral;
+    animation-name: slide;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-out;
+}
+
+.GQK {
+    font-family: Lexend;
+    color: green;
+    animation: slide;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+}
+
+.shoutouts{
+    font-family: Lexend;
+    color: yellow;
+    animation: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.BoNB {
+    font-family: Lexend;
+    color: darkslateblue;
+    animation: slide;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
+}
+
+.Notes {
+    font-family: Lexend;
+    color: darkgrey;
+    animation: slide;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-out;
+}
