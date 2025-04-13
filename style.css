@@ -29,7 +29,15 @@ body{
     font-family: Lexend;
     color: darkmagenta;
     animation-name: slide;
-    animation-duration: 1.05s;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-out;
+}
+
+.Changelog {
+    font-family: Lexend;
+    color: darkorange;
+    animation: slide;
+    animation-duration: 1.2s;
     animation-timing-function: ease-out;
 }
 
@@ -140,4 +148,51 @@ body{
     animation: slide;
     animation-duration: 1.4s;
     animation-timing-function: ease-out;
+}
+
+.navbar {
+    font-family: Lexend;
+    animation: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.DEF_googology {
+    font-family: Lexend;
+    color: red;
+    animation: slide;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-out;
+}
+
+.DEF_FG {
+    font-family: Lexend;
+    color: red;
+    animation: slide;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-out;
+}
+
+.Def_FH{
+    font-family: Lexend;
+    color: violet;
+    animation: slide;
+    animation-timing-function: ease-out;
+    animation-duration: 1.1s;
+}
+
+.def_QG{
+    font-family: Lexend;
+    color: peru;
+    animation: slide;
+    animation-timing-function: ease-out;
+    animation-duration: 1.1s;
+}
+
+.Creators {
+    font-family: Lexend;
+    color: peru;
+    animation: slide;
+    animation-timing-function: ease-out;
+    animation-duration: 1.2s;
 }
